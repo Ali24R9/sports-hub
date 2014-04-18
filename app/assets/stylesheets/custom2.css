@@ -2,9 +2,22 @@
   background-color: blue;
   float:left;
   width: 20%;
-
+  background:url(background.jpg);
+  opacity:0.7;
 }
-
+#main{
+  background:url(gray_sand.png);
+  background-repeat:repeat;
+  border:2px solid #4C7F40;
+  border-radius:5px;
+}
+.sidebar-background{
+  background:url(background.jpg);
+  opacity:0.5;
+}
 h1{
   color:#4C7F40;
+}
+ul .nav{
+  margin:0px 0px 0px 0px;
 }
