@@ -14,6 +14,7 @@ gem 'cancan'
 gem 'cancancan', '~> 1.7'
 gem 'textacular'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'twitter'
 
 
 group :development do

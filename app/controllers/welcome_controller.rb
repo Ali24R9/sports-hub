@@ -1,7 +1,11 @@
 class WelcomeController < ApplicationController
+  require 'twitter'
 
   def index
+    @users = User.all
+    end
 
-  end
+    # @nba = client.search('nba').first
+
 
 end
