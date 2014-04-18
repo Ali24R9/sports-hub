@@ -1,0 +1,8 @@
+development:
+  adapter: postgresql
+  database: sports_blog_development
+
+test:
+  adapter: postgresql
+  database: sports_blog_test
+

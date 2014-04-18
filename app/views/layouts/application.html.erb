@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SportsBlog</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="container">
+  <div class="wrapper">
+      <div class="box">
+          <div class="row">
+            <!-- sidebar -->
+                <div class="column col-sm-3" id="sidebar">
+                    <a class="logo" href="#">B</a>
+                    <ul class="nav">
+                        <li class="active"><a href="#featured">Featured</a>
+                        </li>
+                        <li><a href="#stories">Stories</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /sidebar -->
+                  <%= yield %>
+          </div>
+      </div>
+  </div>
+</div>
+</body>
+</html>
