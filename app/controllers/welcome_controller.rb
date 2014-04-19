@@ -9,7 +9,9 @@ class WelcomeController < ApplicationController
       config.access_token_secret = 'rMK61AaFGGzulutaEfj8GptIU0Tp6WPmzWbIRxs4ZokvO'
     end
 
-    @nba = client.search('nba').first
+    @nba = client.search('nba').take(4)
+    @nfl = client.search('nfl').take(4)
+    @worldcup = client.search('worldcup').take(4)
   end
 
 end

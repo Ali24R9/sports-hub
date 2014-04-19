@@ -1,4 +1,26 @@
 
 <h1>Sports Hub</h1>
 
-<%= @nba.text %>
+<h2>Headlines</h2>
+
+<div class="row">
+  <h3>NBA</h3>
+  <% @nba.each do |nba| %>
+    <%= nba.text %>
+    <hr>
+  <% end %>
+</div>
+<div class="row">
+  <h3>NFL</h3>
+  <% @nfl.each do |nfl| %>
+    <%= nfl.text %>
+    <hr>
+  <% end %>
+</div>
+<div class="row">
+  <h3>World Cup</h3>
+  <% @worldcup.each do |worldcup| %>
+    <%= worldcup.text %>
+    <hr>
+  <% end %>
+</div>

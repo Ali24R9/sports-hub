@@ -1,11 +1,14 @@
 
 .container{
-  background:url(background2.jpg) no-repeat center center;
-  height:900px;
+  background:url(background2.jpg) no-repeat fixed center center;
+  height: auto;
 }
 
 h1{
-  color:white;
+  color:red;
+  background-color:white;
+  border-radius:5px;
+  padding:25px 25px;
 }
 .row{
   background:white;
@@ -19,8 +22,11 @@ h1{
   color:white;
 }
 
-.header{
-
+h3{
+  color:red;
 }
 
+body{
+  background-color:black;
+}
 
