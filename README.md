@@ -1,7 +1,7 @@
 #SportsHub, a site for sports news and blogging.
-#This project was done at Epicodus Programming Bootcamp. The goal was to get more practice in building Rails apps.
+##This project was done at Epicodus Programming Bootcamp. The goal was to get more practice in building Rails apps.
 
-#User Stories:
+##User Stories:
 
 As a user, I want to see tweets with hashtags from the main sports leagues.  (Twitter API)
 
